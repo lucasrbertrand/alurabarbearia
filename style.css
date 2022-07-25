@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
+
+.body {
+	font-family: 'Montserrat', sans-serif;
+}
+
 .box {
   width: 940px;
   position: relative;
@@ -12,8 +18,7 @@ header {
 nav li {
   display: inline;
   margin: 0 0 0 15px;
-	padding: 10px;
-	
+  padding: 10px;
 }
 
 nav a {
@@ -22,22 +27,22 @@ nav a {
   font-weight: bold;
   font-size: 22px;
   text-decoration: none;
-	border:2px solid grey;
-	border-radius: 5px;
-	box-shadow: 1px 1px 2px gray;
-	padding: 8px;
-	transition: 0.8s all;
+  border: 2px solid grey;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px gray;
+  padding: 8px;
+  transition: 0.8s all;
 }
 
 nav a:hover {
-	color: #c78c19;
-	border:2px solid #c78c10;
-	transform: scale(1.1);
+  color: #c78c19;
+  border: 2px solid #c78c10;
+  transform: scale(1.1);
 }
 
 nav a:active {
-	border-color: green;
-	color: green;
+  border-color: green;
+  color: green;
 }
 
 #navegador {
@@ -47,7 +52,7 @@ nav a:active {
 }
 
 .produtos {
-  width: 1720px;
+  width: 940px;
   margin: 0 auto;
   padding: 50px 0;
 }
@@ -56,28 +61,28 @@ nav a:active {
   display: inline-block;
   text-align: center;
   width: 30%;
-	vertical-align: top;
-	margin: 0 1.5%;
-	padding: 30px 20px;
-	box-sizing: border-box;
-	border:2px solid black;
-	border-radius: 10px;
-	box-shadow: 1px 1px 2px gray;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px gray;
 }
 
 .produtos li:hover {
-	color: #c78c19;
-	border:2px solid #c78c10;
+  color: #c78c19;
+  border: 2px solid #c78c10;
 }
 
 .produtos li:hover h2 {
-	font-size: 34px;
+  font-size: 34px;
 }
 
 .produtos li:active {
-	border-color: green;
-	color: green;
-} 
+  border-color: green;
+  color: green;
+}
 
 .produtos h2 {
   font-size: 30px;
@@ -85,80 +90,121 @@ nav a:active {
 }
 
 .produto-descricao {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 .produto-preco {
-	font-size: 22px;
-	font-weight: bold;
-	margin-top: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 footer {
-	color: white;
-	text-align: center;
-	font-size: 13px;
-	margin-top: 20px 0 0;
-	background: url("./assets/bg.jpg");
-	padding: 40px 0;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 20px 0 0;
+  background: url('./assets/bg.jpg');
+  padding: 40px 0;
 }
 
 main {
-	width: 940px;
-	margin: 0 auto;
+  width: 940px;
+  margin: 0 auto;
 }
 
 form {
-	margin: 40px 0;
+  margin: 40px 0;
 }
 
-form label, form legend {
-	display: block;
-	font-size: 20px;
-	margin: 0 0 10px;
+form label,
+form legend {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
 }
 
 .input-padrao {
-	display: block;
-	margin: 0 0 20px;
-	padding: 10px 20px;
-	width: 50%;
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 20px;
+  width: 50%;
 }
 
 .checkbox {
-	margin: 20px 0;
+  margin: 20px 0;
 }
 
 .enviar {
-	width: 40%;
-	padding: 15px 0;
-	background: orange;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	border: none;
-	border-radius: 5px;
-	box-shadow: 1px 1px 1px lightgray;
-	transition: 0.6s all;
-	cursor: pointer;
+  width: 40%;
+  padding: 15px 0;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px lightgray;
+  transition: 0.6s all;
+  cursor: pointer;
 }
 
-.enviar:hover{
-	background: darkorange;
-	transform: scale(1.1);
+.enviar:hover {
+  background: darkorange;
+  transform: scale(1.1);
 }
 
 table {
-	margin: 20px 0 40px;
+  margin: 20px 0 40px;
 }
 
 thead {
-	background: #555555;	
-	color: white;
-	font-weight: bold;
+  background: #555555;
+  color: white;
+  font-weight: bold;
 }
 
-td, th {
-	border: 1px solid black;
-	padding: 8px 15px;
+td,
+th {
+  border: 1px solid black;
+  padding: 8px 15px;
 }
+
+/* css da página inicial */
+
+.banner {
+  width: 100%;
+}
+
+.beneficios {
+}
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+	clear: left;
+}
+
+.principal p {
+  margin: 0 0 1em;
+}
+
+.principal strong {
+  font-weight: bold;
+}
+
+.principal em {
+  font-style: italic;
+}
+
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.imagembeneficios {
+	width: 60%;
+}
+
